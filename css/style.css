@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.form {
+	background-color: #f0f0f0;
+	padding: 100px 0;
+}
+.container{
+	width: 60%;
+	margin:0 auto;
+}
+.signup {
+	text-align: center;
+}
+.signup h1 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 70px;
+}
+.for_form {
+	width: 350px;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	right: 0;
+}
+.for_form input {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 400px;
+	font-size: 18px;
+	padding: 10px;
+	outline: none;
+}
+.for_form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 12px;
+	right: -74px;
+}
+
+
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+div {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.wrapper-box{
+	margin: 0 auto;
+	border: 5px solid;
+	min-height: 300px;
+	width: 80%;
+	
+	position: relative;
+}
+.box{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.box1 {
+	background-color: red;
+	top: 100px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.box2 {
+	background-color: green;
+	top: 0;
+	left: 0;
+}
+.box3{
+	background-color: blue;
+	left: 0;
+	bottom: 0;
+}
+.box4 {
+	background-color: yellow;
+	top: 0;
+	right: 0;
+}
+.box5{
+	background-color: black;
+	bottom: 0;
+	right: 0;
+	
+}
+
+
+/*position start*/
+
+  /*position end*/
